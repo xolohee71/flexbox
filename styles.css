@@ -224,6 +224,22 @@ body{
     display: none;
 }
 
+/* spin effect */
+.spin-button{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 @media only screen and (max-width: 500px){
     .container{
         background: url(https://act.hoyoverse.com/puzzle/hk4e/pz_wY19_dy4do/resource/puzzle/2023/09/26/460bab87a51666d811c259a533251f06_365720609435495045.png?x-oss-process=image/format,webp/quality,Q_90) no-repeat;
@@ -274,6 +290,7 @@ body{
         width: 72%;
         height: 30vh;
         gap: 3%;
+        margin-bottom: 9%;
     }
     
     .card-item{
@@ -329,5 +346,20 @@ body{
     }
     .card-name-4{
         top: 69%;
+    }
+    /* spin effect */
+    .spin-button-mb{
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+    }
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
     }
 }
