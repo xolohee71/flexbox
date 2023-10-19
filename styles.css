@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 100%;
+    border: 3px solid aqua;
+    background: url(https://act.hoyoverse.com/puzzle/hk4e/pz_wY19_dy4do/resource/puzzle/2023/09/21/450a9c73cfd6797976a4384e786b059e_8194795802188472466.png?x-oss-process=image/format,webp/quality,Q_90)no-repeat;
+    background-size: cover;
+    margin-bottom: -5%;
+}
+
+.title{
+    border: 3px solid red;
+    max-width: 60%;
+    display: flex;
+    margin: 25% auto 6% auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img{
+    width: 100%;
+    height: 100%;
+}
+
+.button-group{
+    border: 3px solid rgb(136, 44, 44);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%
+}
+
+.button-group .button-left,
+.button-group .button-right{
+    width:30%;
+    position: relative;
+}
+
+.button-play{
+    width:8%;
+    position: relative;
+}
+
+.button-play .play{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 48%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+.button-left .button-text{
+    position: absolute;
+    color: rgb(199, 233, 255);
+    left: 35.5%;
+    top: 30%;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.button-right .button-text{
+    position: absolute;
+    color: rgb(199, 233, 255);
+    left: 27.5%;
+    top: 10%;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.login-title{
+    border: 3px solid #15505a;
+    width: 40%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.login-title img{
+    width: 100%;
+}
+
+.login-card{
+    border: 3px solid rgb(131, 131, 52);
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+.card-item{
+    border: 3px solid #168b39;
+    width: 25%;
+    /* height: 15%; */
+    position: relative;
+}
+
+.card-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0;
+}
+
+.card-name-1, .card-name-2, .card-name-3, .card-name-4{
+    position: absolute;
+    color: rgb(131, 216, 255);
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.card-name-1{
+    top: 73%;
+    left: 12%;
+}
+
+.card-name-2{
+    top: 73%;
+    left: 18%;
+}
+
+.card-name-3{
+    top: 73%;
+    left: 10%;
+}
+
+.card-name-4{
+    top: 72%;
+    left: 3%;
+}
+
+.login-character{
+    border: 3px solid #15505a;
+    width: 40%;
+    height: 8%;
+    margin: -1% auto 0 auto;
+}
+
+.login-character img{
+    width: 100%;
+    margin: 0;
+}
+
+.hero{
+    border: 3px solid #dd8410;
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.character-details{
+    border: 3px solid #7439c2;
+    width: 50%;
+    height: 50%;
+}
+
+.character-img{
+    border: 3px solid #c239b7;
+    width: 50%;
+    height: 100%;
+}
+
+.character-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-name{
+    border: 3px solid #2a2b8b;
+    width:68%;
+    height: 20%;
+    margin: 12% 0% 0% 33%;
+    position: relative;
+}
+
+.hero-name img{
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+}
+
+.text-overlay{
+    color: rgb(131, 216, 255);
+    font-size: 1.5vw;
+}
+
+.container-2{
+    background: url(https://act.hoyoverse.com/puzzle/hk4e/pz_wY19_dy4do/resource/puzzle/2023/09/21/33335e83c0876977287fac8c0c74deac_7565193527104532716.png?x-oss-process=image/format,webp/quality,Q_90) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5%;
+    margin-top: -2%;
+}
+
+.area-intel{
+    border: 3px solid #15505a;
+    width: 40%;
+    height: 8%;
+    margin: -1vh auto 0 auto;
+}
+
+.area-intel img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.button-play-mb{
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+    .container{
+        background: url(https://act.hoyoverse.com/puzzle/hk4e/pz_wY19_dy4do/resource/puzzle/2023/09/26/460bab87a51666d811c259a533251f06_365720609435495045.png?x-oss-process=image/format,webp/quality,Q_90) no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    .title{
+        margin: 117% auto 6% auto;
+        max-width: 93%;
+    }
+    .button-group{
+        display: none;
+    }
+
+    .button-play-mb{
+        width: 15%;
+        position: relative;
+        border: 3px solid #000;
+        display: block;
+    }
+    .button-play-mb img{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .play-mb{
+        position: absolute;
+        width: 50% !important;
+        height: 50% !important;
+        top: 21%;
+        right: 19%;
+    }
+    
+    .login-title{
+        width: 53%;
+    }
+
+    .login-card{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 72%;
+        height: 30vh;
+        gap: 3%;
+    }
+    
+    .card-item{
+        margin: 0;
+        padding: 0%;
+        width: 32%
+    }
+    .login-character{
+        width: 53%;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+    }
+    .hero-name{
+        margin: 0 auto;
+        position: absolute;
+        top: 67%;
+        right: 15%;
+        height: 28%;
+    }
+
+    .character-img{
+        width: 83%;
+    }
+
+    .character-details{
+        width: 100%;
+    }
+    .text-overlay{
+        font-size: 3vw;
+    }
+    .area-intel{
+        width: 53%;
+    }
+
+    .card-name-1,.card-name-2,.card-name-3,.card-name-4{
+        font-size: 2vw;
+    }
+    .card-name-1{
+        top:73%;
+        left: 11%;
+    }
+    .card-name-2{
+        left: 15%;
+    }
+    .card-name-3{
+        left: 8%;
+    }
+    .card-name-4{
+        top: 69%;
+    }
+}
