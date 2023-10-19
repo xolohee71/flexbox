@@ -1,6 +1,6 @@
-*{
+/* *{
     box-sizing: border-box;
-}
+} */
 
 body{
     margin: 0;
@@ -11,20 +11,21 @@ body{
     max-height: 100%;
     width: 100vw;
     height: 100%;
-    border: 3px solid aqua;
+    /* border: 3px solid aqua; */
     background: url(https://act.hoyoverse.com/puzzle/hk4e/pz_wY19_dy4do/resource/puzzle/2023/09/21/450a9c73cfd6797976a4384e786b059e_8194795802188472466.png?x-oss-process=image/format,webp/quality,Q_90)no-repeat;
     background-size: cover;
     margin-bottom: -5%;
 }
 
 .title{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     max-width: 60%;
     display: flex;
-    margin: 25% auto 6% auto;
+    margin: 0% auto 6% auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 27%;
 }
 
 .title img{
@@ -33,7 +34,7 @@ body{
 }
 
 .button-group{
-    border: 3px solid rgb(136, 44, 44);
+    /* border: 3px solid rgb(136, 44, 44); */
     width: 100%;
     height: 10%;
     display: flex;
@@ -81,7 +82,7 @@ body{
 }
 
 .login-title{
-    border: 3px solid #15505a;
+    /* border: 3px solid #15505a; */
     width: 40%;
     height: 10%;
     margin: 0 auto;
@@ -92,7 +93,7 @@ body{
 }
 
 .login-card{
-    border: 3px solid rgb(131, 131, 52);
+    /* border: 3px solid rgb(131, 131, 52); */
     width: 55%;
     margin: 0 auto;
     display: flex;
@@ -101,7 +102,7 @@ body{
 }
 
 .card-item{
-    border: 3px solid #168b39;
+    /* border: 3px solid #168b39; */
     width: 25%;
     /* height: 15%; */
     position: relative;
@@ -142,7 +143,7 @@ body{
 }
 
 .login-character{
-    border: 3px solid #15505a;
+    /* border: 3px solid #15505a; */
     width: 40%;
     height: 8%;
     margin: -1% auto 0 auto;
@@ -154,7 +155,7 @@ body{
 }
 
 .hero{
-    border: 3px solid #dd8410;
+    /* border: 3px solid #dd8410; */
     width: 80%;
     height: 40%;
     margin: 0 auto;
@@ -162,13 +163,13 @@ body{
 }
 
 .character-details{
-    border: 3px solid #7439c2;
+    /* border: 3px solid #7439c2; */
     width: 50%;
     height: 50%;
 }
 
 .character-img{
-    border: 3px solid #c239b7;
+    /* border: 3px solid #c239b7; */
     width: 50%;
     height: 100%;
 }
@@ -180,7 +181,7 @@ body{
 }
 
 .hero-name{
-    border: 3px solid #2a2b8b;
+    /* border: 3px solid #2a2b8b; */
     width:68%;
     height: 20%;
     margin: 12% 0% 0% 33%;
@@ -207,7 +208,7 @@ body{
 }
 
 .area-intel{
-    border: 3px solid #15505a;
+    /* border: 3px solid #15505a; */
     width: 40%;
     height: 8%;
     margin: -1vh auto 0 auto;
@@ -232,8 +233,9 @@ body{
         margin-bottom: 0%;
     }
     .title{
-        margin: 117% auto 6% auto;
-        max-width: 93%;
+        margin: 0% auto 6% auto;
+        max-width: 100%;
+        padding-top: 113%;
     }
     .button-group{
         display: none;
@@ -242,7 +244,7 @@ body{
     .button-play-mb{
         width: 15%;
         position: relative;
-        border: 3px solid #000;
+        /* border: 3px solid #000; */
         display: block;
     }
     .button-play-mb img{
@@ -260,7 +262,8 @@ body{
     }
     
     .login-title{
-        width: 53%;
+        width: 69%;
+        padding-bottom: 5%;
     }
 
     .login-card{
@@ -279,7 +282,9 @@ body{
         width: 32%
     }
     .login-character{
-        width: 53%;
+        width: 69%;
+        padding-top: 9%;
+        padding-bottom: 5%;
     }
 
     .hero{
@@ -306,7 +311,7 @@ body{
         font-size: 3vw;
     }
     .area-intel{
-        width: 53%;
+        width: 69%;
     }
 
     .card-name-1,.card-name-2,.card-name-3,.card-name-4{
